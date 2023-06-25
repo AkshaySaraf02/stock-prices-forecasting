@@ -10,7 +10,7 @@
   * [License](#license)
 
 ## Overview
-# Important: Please see the demonstration video to see how the Stock Prediction Web App works.
+### Important: Please see the demonstration video to see how the Stock Prediction Web App works.
 This project is a web application that predicts stock prices using LSTM model. It provides users with the ability to input a stock name and view the predicted stock prices based on historical data. The application utilizes the Yahoo Finance API to fetch stock data, performs data preprocessing and scaling, and employs a pre-trained deep learning model for prediction.
 
 ## Description
