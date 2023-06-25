@@ -17,15 +17,15 @@ The Stock Prediction Web App allows users to enter the name of a stock and view 
 
 ## Project Structure
 The project consists of the following main files:
-- `stock_prediction.py`: This file contains the code for the Streamlit web application, including fetching stock data, data preprocessing, visualization, and prediction.
-- `price_prediction.ipynb`: This Jupyter Notebook file contains the code for training the deep learning model to predict stock prices.
+- `stock_prediction_webapp.py`: This file contains the code for the Streamlit web application, including fetching stock data, data preprocessing, visualization, and prediction.
+- `stock_price_model.ipynb`: This Jupyter Notebook file contains the code for training the deep learning model to predict stock prices.
 
 ## Installation
 To run the Stock Prediction Web App locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
 3. Make sure you have Python 3.7 or higher installed.
-4. Run the command `streamlit run stock_prediction.py` to start the web application.
+4. Run the command `streamlit run stock_prediction_webapp.py` to start the web application.
 
 ## Usage
 1. Enter the name of a valid stock in the provided text input field.
