@@ -1,15 +1,10 @@
-from cProfile import label
-from shutil import unregister_archive_format
-from tabnanny import check
 import pandas as pd
 import pandas_datareader as data
 import numpy as np
 
 from PIL import Image
 
-import seaborn as sns
 import matplotlib.pyplot as plt
-import plotly.express as px
 
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import load_model
